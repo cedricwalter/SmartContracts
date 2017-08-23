@@ -3,7 +3,12 @@ Smart contracts are powerful means for enforcing rules which hold, transfer, rec
 
 Formal verification means applying a proof that the program behaves according to a specification. In general, this is done with a concrete specification language used to describe how input and output of functions should relate.
 
-So why is it important for smart contracts? You could imagine: (1) smart contracts are immutable, you can't patch them easily, (2) smart contracts store value and are (3) accessible publicly from all over the world. This makes them very attractive for hacker attacks. Formal Verification is a strong approach to reduce the risk of bugs and attacks.
+So why is it important for smart contracts? 
+1. smart contracts are immutable, you can't patch them easily, 
+2. smart contracts store value and are 
+3. accessible publicly from all over the world. 
+
+This makes them very attractive for hacker attacks. Formal Verification is a strong approach to reduce the risk of bugs and attacks.
 
 Formal verification can be quite sophisticated with mathematical models describing the problem, but also very simple. Some consider Unit Testing the simplest form of formal verification. The trick is always to describe the behavior of an algorithm without reproducing it, having an outside look. 
 
