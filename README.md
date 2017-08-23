@@ -34,3 +34,4 @@ Formal Verification for Solidity Contracts
 
 * why3. http://why3.lri.fr/
 * Securify (code, machine code, adress) http://securify.ch/
+* How to https://gist.github.com/chriseth/c4a53f201cd17fc3dd5f8ddea2aa3ff9
