@@ -5,7 +5,11 @@ Formal verification means applying a proof that the program behaves according to
 
 So why is it important for smart contracts? You could imagine: (1) smart contracts are immutable, you can't patch them easily, (2) smart contracts store value and are (3) accessible publicly from all over the world. This makes them very attractive for hacker attacks. Formal Verification is a strong approach to reduce the risk of bugs and attacks.
 
-Formal verification can be quite sophisticated with mathematical models describing the problem, but also very simple. Some consider Unit Testing the simplest form of formal verification. The trick is always to describe the behavior of an algorithm without reproducing it, having an outside look.
+Formal verification can be quite sophisticated with mathematical models describing the problem, but also very simple. Some consider Unit Testing the simplest form of formal verification. The trick is always to describe the behavior of an algorithm without reproducing it, having an outside look. 
+
+Using formal verification, it is possible to perform an automated mathematical proof that your source code fulfills a certain formal specification. The specification is still formal (just as the source code), but usually much simpler.
+
+Note that formal verification itself can only help you understand the difference between what you did (the specification) and how you did it (the actual implementation). You still need to check whether the specification is what you wanted and that you did not miss any unintended effects of it.
 
 # Ethereum
 
@@ -14,9 +18,13 @@ Ethereum is a framework for cryptocurrencies which uses blockchain technology to
 ## WhitePapers
 * Formal Verification of Smart Contracts by Karthikeyan Bhargavan1, Antoine Delignat-Lavaud2, Cédric Fournet2, Anitha Gollamudi3, Georges Gonthier2, Nadim Kobeissi1, Natalia Kulatova1, Aseem Rastogi2, Thomas Sibut-Pinote1, Nikhil Swamy2, and Santiago Zanella-Béguelin2 http://antoine.delignat-lavaud.fr/doc/plas16.pdf
 
-
+# Talk
+https://www.youtube.com/watch?v=rx0NPckEWGI slides https://chriseth.github.io/notes/talks/formal_ic3_bootcamp/
 
 ## Articles
+* security page on the solidity documentation https://solidity.readthedocs.io/en/latest/security-considerations.html
+* Writing Secure Solidity http://www.blunderingcode.com/writing-secure-solidity/
+* Peter Vessenes' blog http://vessenes.com/
 * https://github.com/pirapira/ethereum-formal-verification-overview
 * https://www.coindesk.com/ethereum-formal-verification-smart-contracts/
 
