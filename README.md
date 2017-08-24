@@ -37,6 +37,7 @@ https://www.youtube.com/watch?v=rx0NPckEWGI slides https://chriseth.github.io/no
 ## Tools
 Formal Verification for Solidity Contracts 
 
+* https://github.com/melonproject/oyente  for bugs detected by the tool http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf
 * why3. http://why3.lri.fr/
 * Securify (code, machine code, adress) http://securify.ch/
 * How to https://gist.github.com/chriseth/c4a53f201cd17fc3dd5f8ddea2aa3ff9
