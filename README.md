@@ -37,7 +37,19 @@ https://www.youtube.com/watch?v=rx0NPckEWGI slides https://chriseth.github.io/no
 ## Tools
 Formal Verification for Solidity Contracts 
 
+### Oyente
 * https://github.com/melonproject/oyente  for bugs detected by the tool http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf
+
+### Why 3
 * why3. http://why3.lri.fr/
+
+### Securify
 * Securify (code, machine code, adress) http://securify.ch/
+
+### Imandra
+Imandra analyses algorithms to help you understand what they do, why they do it, and what can possibly go wrong. https://www.imandra.ai/
+There is a module to analyse Ethereum EVM code at https://github.com/AestheticIntegration/contracts, watch the blog entry https://blog.benefactory.cc/devcon-2-imandra-contracts-formal-verification-for-ethereum-8e9627bf71f3
+
+
+### Others
 * How to https://gist.github.com/chriseth/c4a53f201cd17fc3dd5f8ddea2aa3ff9
