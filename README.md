@@ -20,13 +20,20 @@ Note that formal verification itself can only help you understand the difference
 
 Ethereum is a framework for cryptocurrencies which uses blockchain technology to provide an open global computing platform, called the Ethereum Virtual Machine (EVM). EVM executes bytecode on a simple stack machine. Programmers do not usually write EVM code; instead, they can program in a JavaScript-like language, called Solidity, that compiles to bytecode. Since the main purpose of EVM is to execute smart contracts that manage and transfer digital assets (called Ether), security is of paramount importance. However, writing secure smart contracts can be extremely difficult: due to the openness of Ethereum, both programs and pseudonymous users can call into the public methods of other programs, leading to potentially dangerous compositions of trusted and untrusted code. This risk was recently illustrated by an attack on TheDAO contract that exploited subtle details of the EVM semantics to transfer roughly $50M worth of Ether into the control of an attacker.
 
+- **Vitalik Buterin**: [Twitter](https://twitter.com/vitalikbuterin), [Github](https://github.com/vbuterin), [Reddit](https://www.reddit.com/user/vbuterin), [Ethereum Blog](https://blog.ethereum.org/author/vitalik-buterin/)
+- **Dr. Christian Reitwiessner**: [Twitter](https://twitter.com/ethchris), [Github](https://github.com/chriseth), [Ethereum Blog](https://blog.ethereum.org/author/christian_r/)
+- **Dr. Gavin Wood**: [Twitter](https://twitter.com/gavofyork), [Blog](http://gavwood.com/), [Github](https://github.com/gavofyork)
+- **Vlad Zamfir**: [Twitter](https://twitter.com/vladzamfir), [Github](https://github.com/vladzamfir), [Ethereum Blog](https://blog.ethereum.org/author/vlad/)
+
+
 ## WhitePapers
 * Formal Verification of Smart Contracts by Karthikeyan Bhargavan1, Antoine Delignat-Lavaud2, Cédric Fournet2, Anitha Gollamudi3, Georges Gonthier2, Nadim Kobeissi1, Natalia Kulatova1, Aseem Rastogi2, Thomas Sibut-Pinote1, Nikhil Swamy2, and Santiago Zanella-Béguelin2 http://antoine.delignat-lavaud.fr/doc/plas16.pdf
 
-# Talk
+## Talk
 https://www.youtube.com/watch?v=rx0NPckEWGI slides https://chriseth.github.io/notes/talks/formal_ic3_bootcamp/
 
 ## Articles
+* Ethereum Contract Security Techniques and Tips https://github.com/ConsenSys/smart-contract-best-practices
 * security page on the solidity documentation https://solidity.readthedocs.io/en/latest/security-considerations.html
 * Writing Secure Solidity http://www.blunderingcode.com/writing-secure-solidity/
 * Peter Vessenes' blog http://vessenes.com/
